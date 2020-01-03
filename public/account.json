@@ -1,0 +1,14 @@
+{
+  "komodo@example.com": {
+    "username": "komodo",
+    "password": "komodo123",
+    "email": "komodo@example.com",
+    "deactivated": false
+  },
+  "testing@example.com": {
+    "username": "testing",
+    "password": "testing123",
+    "email": "testing@example.com",
+    "deactivated": true
+  }
+}
