@@ -1,7 +1,11 @@
+Make sure Node (latest LTS) & Yarn has already installed.
+
+- Node : https://nodejs.org/en/
+- Yarn : https://yarnpkg.com/en/docs/install
+
+
 HOW TO START
 --------
-
-Make sure Yarn has already installed. https://yarnpkg.com/en/docs/install
 
 - git clone `https://github.com/dhikatb/QA-Test.git`
 - run `cd QA-Test`
