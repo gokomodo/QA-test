@@ -16,7 +16,8 @@
     "unfetch": "^4.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "yarn build && node src/server/index.js",
+    "start:cra": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "server": "yarn build && node src/server/index.js"
