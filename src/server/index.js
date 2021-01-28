@@ -20,8 +20,8 @@ app.post("/api", (req, res) => {
     if (loginAccount.password === req.body.password) {
       if (loginAccount.deactivated) {
         st = 401;
-        toSend = { message: "your account has deactivated" };
-        msg = "your account has deactivated";
+        toSend = { message: "Your account is not active" };
+        msg = "Your account is not active";
       } else {
         st = 200;
         toSend = loginAccount;
